@@ -1,0 +1,14 @@
+[project]
+name = "webhook-hmac-verifier"
+version = "0.1.0"
+description = "Verify HMAC-SHA256 webhook signatures (t=<unix>,v1=<hex>) with a freshness window"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
